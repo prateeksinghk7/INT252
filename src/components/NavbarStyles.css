@@ -44,7 +44,7 @@
     transition: all 0.2s ease-in-out;
 }
 
-.nav-links-mobile{
+.dnone{
     display: none;
 }
 
@@ -58,7 +58,8 @@ button{
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
-butto:hover{
+
+button:hover{
     background-color: #151516;
     color:#fff;
 }

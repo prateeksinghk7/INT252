@@ -19,9 +19,9 @@ icon:"fa-solid fa-briefcase"
     cName : "nav-links",
     icon:"fa-solid fa-address-book"
 },
-{  title:"Sign Up",
+{  title:"Sign up",
     url:"/signup",
-    cName : "nav-links",
+    cName:"dnone",
     icon:"nav-links-mobile"
 }
 ];
