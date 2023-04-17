@@ -1,12 +1,18 @@
 import "./HeroStyles.css";
-import background from "../assets/background.mp4";
-function Hero(){
+
+
+
+function Hero(props){
 return(
     <>
-<div className="hero">
-<video className="backgroundVideo" src={background} autoPlay loop muted/>
-
-
+<div className={props.cName}>
+<img alt="image not found" src={props.heroImg}/>
+<div className="hero-text">
+    <h1>{props.title}</h1>
+    <p>{props.text}</p>
+    <a href={props.url} className={props.btnClass}>{props.buttonText}
+    </a>
+</div>
 </div>
 </>
 )
