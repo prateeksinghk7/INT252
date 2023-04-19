@@ -6,7 +6,7 @@ function Hero(props){
 return(
     <>
 <div className={props.cName}>
-<img alt="image not found" src={props.heroImg}/>
+    <img alt="HeroImg" src={props.heroImg}/>
 <div className="hero-text">
     <h1>{props.title}</h1>
     <p>{props.text}</p>
@@ -19,3 +19,4 @@ return(
 }
 
 export default Hero;
+
