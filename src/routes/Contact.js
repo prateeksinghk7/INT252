@@ -1,13 +1,13 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
-import image from "../assets/contactUs.jpeg";
+import video_name from "../assets/background.mp4";
 function Contact(){
     return(
     <>
    <Navbar/>
         <Hero
         cName="hero-mid"
-        heroImg={image}
+        vid={video_name}
         title="Contact"
       
  
