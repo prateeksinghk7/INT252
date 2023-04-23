@@ -128,9 +128,7 @@ transition: 0.3s ease-in-out;
     letter-spacing: 2px;
 
    }
-   button{
-   display: none;
-   }
+  
    .menu-icons{
     display: block;
     cursor: pointer;

@@ -1,0 +1,33 @@
+.container{
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+    border-radius: 2rem;
+    background-color: rgba(205, 209, 228,0.7);
+    box-shadow: 20px 20px 50px 10px rgb(192, 225, 252) inset;
+   }
+
+.image img{
+    object-fit: cover;
+    width: 220px;
+    height: 220px;
+    border-radius:50% 50%;
+    padding: 5px;
+    box-shadow: 20px 20px 50px 15px grey;
+}
+.image{
+    border: 1px solid rgb(167, 163, 163);
+    width:  220px;
+    height: 220px;
+    border-radius: 50% 50%;
+    margin-bottom: 20px;
+} 
+.container h2{
+    font-weight: 300;
+}
+.container span{
+    font-weight: 500;
+}

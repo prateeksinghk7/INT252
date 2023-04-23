@@ -33,9 +33,7 @@ function Trip(){
            />
            
            </div>
-           
-
-        </div>
+         </div>
     );
 }
 export default Trip;

@@ -1,0 +1,9 @@
+
+.maindiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: rgb(202, 227, 230);
+}
