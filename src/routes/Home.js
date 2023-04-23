@@ -1,7 +1,7 @@
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
 import Destination from "../components/Destination";
-
+import Trip from "../components/Trip";
 function Home(){
 return(
 <>
@@ -16,7 +16,7 @@ url="/"
 btnClass="show"
 />
 <Destination/>
-
+<Trip/>
 </>
 )
 }
